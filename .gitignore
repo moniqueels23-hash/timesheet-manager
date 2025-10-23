@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+# Build output
+dist/
+build/
+# Database files
+*.db
+*.db-shm
+*.db-wal
+# Replit files (don't upload these)
+.local/
+.replit
+.upm/
+# OS files
+.DS_Store
+Thumbs.db
