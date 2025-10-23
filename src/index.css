@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.timesheet-row-normal {
+  color: black;
+}
+
+.timesheet-row-closeoff {
+  color: #dc2626;
+  font-weight: 500;
+}
+
+.timesheet-row-transfer {
+  color: #16a34a;
+  font-weight: 500;
+}
+
+/* Custom blue theme color #2980BA */
+.bg-app-blue {
+  background-color: #2980BA;
+}
+
+.bg-app-blue-hover:hover {
+  background-color: #236a9a;
+}
+
+.text-app-blue {
+  color: #2980BA;
+}
+
+.border-app-blue {
+  border-color: #2980BA;
+}

@@ -1,0 +1,71 @@
+Please update the PDF layout to the following exact print specifications for A4 portrait (210 mm × 297 mm):
+
+PAGE SETUP
+
+All content (header and table) must sit within 7 mm margins from both the left and right edges of the A4 page.
+
+That means the printable/table area width = 209 mm − 14 mm = 195 mm total,
+
+but the actual table grid width must be 188 mm, centred between those 7 mm margins.
+
+HEADER (CLIENT NAME + CLIENT ID)
+
+The client name block starts 7 mm from the left edge of the page.
+
+The block height must be 8 mm.
+
+Text inside that block uses 10 pt font, bold, white on blue (#2980BA).
+
+The client ID block sits on the same horizontal line, ending 7 mm from the right edge of the page.
+
+The client ID block width is 10 mm and height 8 mm,
+
+with right-aligned positioning (i.e., starts 17 mm from the right edge so there’s 7 mm spacing beyond the 10 mm width).
+
+Both blocks must be horizontally aligned (same baseline).
+
+Leave a small vertical gap (≈ 2–3 mm) before the table begins.
+
+TABLE LAYOUT
+
+The table width = 188 mm total, starting 7 mm from the left and ending 7 mm from the right.
+
+Use 8 pt font for all table content (body).
+
+Use 10 pt bold for the table header row.
+
+Gridlines must be thin (0.5 px) and blue #2980BA throughout.
+
+Column widths (exact fixed sizes)
+Column	Width	Alignment
+Date	18 mm	Left
+Description	auto (fill remaining width)	Left
+ID	15 mm	Centre
+Time	15 mm	Centre
+Charge Out	20 mm	Right
+
+The Charge Out column must right-align all numeric values.
+
+Display thousands separators (e.g., 22 400 or 1 840).
+
+Time and ID columns are centre-aligned.
+
+Date and Description columns are left-aligned.
+
+All column widths must remain constant across every PDF generated (use table-layout: fixed).
+
+COLORS & LINES
+
+Header background: #2980BA
+
+Border/gridline color: #2980BA, 0.5 px thick
+
+Body background: white
+
+Totals row: light grey (#f2f4f6) with bold text.
+
+GOAL
+
+The header and table should look precise, aligned, compact, and professional with consistent margins, spacing, and column proportions across all generated PDFs.
+
+This layout must remain identical whether the report contains one client or multiple clients.
